@@ -8,7 +8,11 @@ const blockchain = new Blockchain();
 const tx1 = new Transaction(process.env.PUBLIC_KEY, "address2", 100);
 tx1.signingTransactionByPrivateKey(process.env.PRIVATE_KEY);
 
-blockchain.addTransaction(tx1);
+try {
+  blockchain.addTransaction(tx1);
+} catch (error) {
+  Log.error(error);
+}
 
 blockchain.miningPendingTransactions(process.env.PUBLIC_KEY);
 

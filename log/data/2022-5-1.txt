@@ -577,3 +577,44 @@ Block -
 
 2:21:43 PM[LOG]: address 1: 0
 2:21:43 PM[LOG]: address 2: 100
+2:30:47 PM[ERROR]: Error: Not enough balance
+2:30:51 PM[LOG]: Block mined:   Block - Number 1
+      Timestamp: 1651390247474
+      Transactions: [
+          
+      fromAddress: null
+      toAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      amount: 100
+      signature: undefined
+    
+      ]
+      Previous Hash: fa90031daf90be6562d72c924925b82ee3b19600d073fe185f9f5a7e72ab3eab
+      Hash: 00000a970352c597ea876f55f32da607b31127c6571deda364a3f90ba640266c
+      Nonce: 428301
+2:30:51 PM[LOG]: Chain: 2 blocks
+=============================0=============================
+  Block - Number 0
+      Timestamp: 1651390247371
+      Transactions: [
+          
+      ]
+      Previous Hash: Genesis Block
+      Hash: fa90031daf90be6562d72c924925b82ee3b19600d073fe185f9f5a7e72ab3eab
+      Nonce: 0
+=============================1=============================
+  Block - Number 1
+      Timestamp: 1651390247474
+      Transactions: [
+          
+      fromAddress: null
+      toAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      amount: 100
+      signature: undefined
+    
+      ]
+      Previous Hash: fa90031daf90be6562d72c924925b82ee3b19600d073fe185f9f5a7e72ab3eab
+      Hash: 00000a970352c597ea876f55f32da607b31127c6571deda364a3f90ba640266c
+      Nonce: 428301
+
+2:30:51 PM[LOG]: address 1: 100
+2:30:51 PM[LOG]: address 2: 0
