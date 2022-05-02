@@ -1,25 +1,20 @@
 const Log = require("./log");
 
-require("dotenv").config();
+// require("dotenv").config();
 const { Blockchain, Transaction } = require("./model/BlockchainCore");
+const { P2P } = require("./model/p2p");
+const receiveAddress = require("./configs/address");
 
-const blockchain = new Blockchain();
+const p2pNetwork = new P2P(process.env.P2P_PORT, new Blockchain());
+p2pNetwork.listen();
 
-const tx1 = new Transaction(process.env.PUBLIC_KEY, "address2", 100);
-tx1.signingTransactionByPrivateKey(process.env.PRIVATE_KEY);
-
-try {
-  blockchain.addTransaction(tx1);
-} catch (error) {
-  Log.error(error);
+if (process.env.PEERS) {
+  const peers = process.env.PEERS.split(",");
+  p2pNetwork.connectAllPeers(peers);
 }
 
-blockchain.miningPendingTransactions(process.env.PUBLIC_KEY);
-
-Log.message(blockchain);
-
-Log.message(
-  "address 1: " + blockchain.getBalanceOfAddress(process.env.PUBLIC_KEY)
+p2pNetwork.blockchain.pendingTransactions.push(
+  new Transaction(null, receiveAddress.PublicKey, 1000)
 );
 
-Log.message("address 2: " + blockchain.getBalanceOfAddress("address2"));
+p2pNetwork.blockchain.miningPendingTransactions(receiveAddress.PublicKey);

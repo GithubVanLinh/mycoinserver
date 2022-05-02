@@ -70,13 +70,14 @@ class Transaction {
 }
 
 class Block {
-  constructor(index, timestamp, transactions, previousHash = "") {
+  constructor(index, timestamp, transactions, previousHash = "", difficulty) {
     this.index = index;
     this.timestamp = timestamp;
     this.transactions = transactions;
     this.previousHash = previousHash;
     this.hash = this.calculateHash();
     this.nonce = 0;
+    this.difficulty = difficulty;
   }
 
   calculateHash() {
@@ -102,7 +103,8 @@ class Block {
   }
 
   toString() {
-    return `  Block - Number ${this.index}
+    return `    {
+      Block - Number ${this.index}
       Timestamp: ${this.timestamp}
       Transactions: [
           ${this.transactions
@@ -111,7 +113,8 @@ class Block {
       ]
       Previous Hash: ${this.previousHash}
       Hash: ${this.hash}
-      Nonce: ${this.nonce}`;
+      Nonce: ${this.nonce}
+    }`;
   }
 }
 
@@ -135,7 +138,7 @@ class Blockchain {
   // }
 
   createGenesisBlock() {
-    return new Block(0, Date.now(), [], "Genesis Block");
+    return new Block(0, Date.now(), [], "Genesis Block", 0);
   }
 
   getLatestBlock() {
@@ -156,7 +159,8 @@ class Blockchain {
       latestBlock.index + 1,
       Date.now(),
       this.pendingTransactions,
-      this.getLatestBlock().hash
+      this.getLatestBlock().hash,
+      this.difficulty
     );
     block.mineBlock(this.difficulty);
 
@@ -187,7 +191,7 @@ class Blockchain {
     if (
       this.getBalanceOfAddress(transaction.fromAddress) < transaction.amount
     ) {
-      throw new Error("Not enough balance");
+      throw new Error(transaction.fromAddress + " is not enough balance");
     }
 
     this.pendingTransactions.push(transaction);

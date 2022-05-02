@@ -16,13 +16,13 @@ const WriteFileStream = fs.createWriteStream(LOG_FILE_PATH, {
 });
 
 module.exports.message = function (message) {
-  console.log("[log]:", message);
+  console.log("[log]:", message.toString());
   const timestamp = new Date().toLocaleTimeString();
   WriteFileStream.write(timestamp + "[LOG]: " + message + "\n");
 };
 
 module.exports.error = function (error) {
-  console.error("[ERROR]:", error);
+  console.error("[ERROR]:", error.toString());
   const timestamp = new Date().toLocaleTimeString();
   WriteFileStream.write(timestamp + "[ERROR]: " + error + "\n");
 };

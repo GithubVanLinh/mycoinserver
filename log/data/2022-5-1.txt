@@ -1,540 +1,164 @@
-8:45:19 AM: Hello World
-8:45:19 AM: Hello World
-8:45:27 AM: Hello World
-8:45:27 AM: Hello World
-8:47:58 AM: Hello World
-8:47:58 AM: Block -
-      Index: 0
-      Timestamp: 2018-01-01
-      Data: Hello World
-      Previous Hash: 
-      Hash: bdc3c12fa27414767af56020e3b7e71c94dd7c4f6bbbe82bfedf3fe63fc84659
-      Nonce: 0
-8:47:58 AM: Block -
-      Index: 0
-      Timestamp: 2018-01-01
-      Data: Hello World
-      Previous Hash: 
-      Hash: bdc3c12fa27414767af56020e3b7e71c94dd7c4f6bbbe82bfedf3fe63fc84659
-      Nonce: 0
-8:58:36 AM[LOG]: Hello World
-8:58:36 AM[LOG]: Block -
-      Index: 0
-      Timestamp: 2018-01-01
-      Data: Hello World
-      Previous Hash: 
-      Hash: bdc3c12fa27414767af56020e3b7e71c94dd7c4f6bbbe82bfedf3fe63fc84659
-      Nonce: 0
-8:58:36 AM[ERROR]: Block -
-      Index: 0
-      Timestamp: 2018-01-01
-      Data: Hello World
-      Previous Hash: 
-      Hash: bdc3c12fa27414767af56020e3b7e71c94dd7c4f6bbbe82bfedf3fe63fc84659
-      Nonce: 0
-9:12:07 AM[LOG]: Hello World
-9:12:07 AM[LOG]: [object Object]
-9:12:07 AM[ERROR]: Mining stopped
-9:12:07 AM[ERROR]: Mining stopped
-9:13:04 AM[LOG]: Hello World
-9:13:04 AM[LOG]: [{"index":0,"timestamp":[],"data":"Genesis Block","previousHash":"","hash":"c59036cab9f28299448067aaad731446111ff426aa9003e34a9ebb92ecf36a61","nonce":0}]
-9:13:04 AM[ERROR]: Mining stopped
-9:13:04 AM[ERROR]: Mining stopped
-9:15:26 AM[LOG]: Hello World
-9:15:26 AM[LOG]: [{"index":0,"timestamp":[],"data":"Genesis Block","previousHash":"","hash":"c59036cab9f28299448067aaad731446111ff426aa9003e34a9ebb92ecf36a61","mining":false,"nonce":0}]
-9:26:59 AM[LOG]: Block mined: Block -
-      Index: 1
-      Timestamp: 20/01/2020
-      Data: [object Object]
-      Previous Hash: c59036cab9f28299448067aaad731446111ff426aa9003e34a9ebb92ecf36a61
-      Hash: 000008faae186d3be8ff95d8b70fb2fc87349affad0524296a091e285989a20b
-      Nonce: 110324
-9:27:04 AM[LOG]: Block mined: Block -
-      Index: 2
-      Timestamp: 20/01/2020
-      Data: [object Object]
-      Previous Hash: 000008faae186d3be8ff95d8b70fb2fc87349affad0524296a091e285989a20b
-      Hash: 000002ffc0895f6fbfa7254c598405da72bd34c871e2bef6e87c77a40268e84a
-      Nonce: 481506
-9:27:04 AM[LOG]: Hello World
-9:27:04 AM[LOG]: Chain: 3 blocks
-Block -
-      Index: 0
-      Timestamp: 
-      Data: Genesis Block
-      Previous Hash: 
-      Hash: c59036cab9f28299448067aaad731446111ff426aa9003e34a9ebb92ecf36a61
-      Nonce: 0
-Block -
-      Index: 1
-      Timestamp: 20/01/2020
-      Data: [object Object]
-      Previous Hash: c59036cab9f28299448067aaad731446111ff426aa9003e34a9ebb92ecf36a61
-      Hash: 000008faae186d3be8ff95d8b70fb2fc87349affad0524296a091e285989a20b
-      Nonce: 110324
-Block -
-      Index: 2
-      Timestamp: 20/01/2020
-      Data: [object Object]
-      Previous Hash: 000008faae186d3be8ff95d8b70fb2fc87349affad0524296a091e285989a20b
-      Hash: 000002ffc0895f6fbfa7254c598405da72bd34c871e2bef6e87c77a40268e84a
-      Nonce: 481506
-
-9:30:20 AM[LOG]: Block mined: 
-    Block - Number 1
-      Timestamp: 20/01/2020
-      Data: [object Object]
-      Previous Hash: c59036cab9f28299448067aaad731446111ff426aa9003e34a9ebb92ecf36a61
-      Hash: 000008faae186d3be8ff95d8b70fb2fc87349affad0524296a091e285989a20b
-      Nonce: 110324
-9:30:24 AM[LOG]: Block mined: 
-    Block - Number 2
-      Timestamp: 20/01/2020
-      Data: [object Object]
-      Previous Hash: 000008faae186d3be8ff95d8b70fb2fc87349affad0524296a091e285989a20b
-      Hash: 000002ffc0895f6fbfa7254c598405da72bd34c871e2bef6e87c77a40268e84a
-      Nonce: 481506
-9:30:24 AM[LOG]: Hello World
-9:30:24 AM[LOG]: Chain: 3 blocks
+4:12:28 PM[ERROR]: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f is not enough balance
+4:12:39 PM[LOG]: Block mined:     {
+      Block - Number 1
+      Timestamp: 1651396348421
+      Transactions: [
+          
+      fromAddress: null
+      toAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      amount: 100
+      signature: undefined
+    
+      ]
+      Previous Hash: 4759c56d91e72bc59f60ebf8e9a7898638944afefbe566d20d3c214f3961bc5a
+      Hash: 00000e1e63dee532c6c694eeb6a087eaf2d67373b68c480f0f4def45e261466a
+      Nonce: 1434803
+    }
+4:12:54 PM[LOG]: Block mined:     {
+      Block - Number 2
+      Timestamp: 1651396359820
+      Transactions: [
+          
+      fromAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      toAddress: address2
+      amount: 50
+      signature: 3046022100b0bce12c13e33f53b40e882bc6bcd8a5d581392727df1a693f35273f64c2bb0d022100981788493143f57e8a7f5aa6d28844ec90a843da45cafadaf20ca6416daad49d
+    ======================================================
+      fromAddress: null
+      toAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      amount: 100
+      signature: undefined
+    
+      ]
+      Previous Hash: 00000e1e63dee532c6c694eeb6a087eaf2d67373b68c480f0f4def45e261466a
+      Hash: 00000d6dee410e0564894a342084f212e935e4d660b86382effabe18d52a1dd1
+      Nonce: 1623041
+    }
+4:12:54 PM[LOG]: Chain: 3 blocks
 =============================0=============================
-
-    Block - Number 0
-      Timestamp: 
-      Data: Genesis Block
-      Previous Hash: 
-      Hash: c59036cab9f28299448067aaad731446111ff426aa9003e34a9ebb92ecf36a61
+    {
+      Block - Number 0
+      Timestamp: 1651396348357
+      Transactions: [
+          
+      ]
+      Previous Hash: Genesis Block
+      Hash: 4759c56d91e72bc59f60ebf8e9a7898638944afefbe566d20d3c214f3961bc5a
       Nonce: 0
+    }
 =============================1=============================
-
-    Block - Number 1
-      Timestamp: 20/01/2020
-      Data: [object Object]
-      Previous Hash: c59036cab9f28299448067aaad731446111ff426aa9003e34a9ebb92ecf36a61
-      Hash: 000008faae186d3be8ff95d8b70fb2fc87349affad0524296a091e285989a20b
-      Nonce: 110324
+    {
+      Block - Number 1
+      Timestamp: 1651396348421
+      Transactions: [
+          
+      fromAddress: null
+      toAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      amount: 100
+      signature: undefined
+    
+      ]
+      Previous Hash: 4759c56d91e72bc59f60ebf8e9a7898638944afefbe566d20d3c214f3961bc5a
+      Hash: 00000e1e63dee532c6c694eeb6a087eaf2d67373b68c480f0f4def45e261466a
+      Nonce: 1434803
+    }
 =============================2=============================
+    {
+      Block - Number 2
+      Timestamp: 1651396359820
+      Transactions: [
+          
+      fromAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      toAddress: address2
+      amount: 50
+      signature: 3046022100b0bce12c13e33f53b40e882bc6bcd8a5d581392727df1a693f35273f64c2bb0d022100981788493143f57e8a7f5aa6d28844ec90a843da45cafadaf20ca6416daad49d
+    ======================================================
+      fromAddress: null
+      toAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      amount: 100
+      signature: undefined
+    
+      ]
+      Previous Hash: 00000e1e63dee532c6c694eeb6a087eaf2d67373b68c480f0f4def45e261466a
+      Hash: 00000d6dee410e0564894a342084f212e935e4d660b86382effabe18d52a1dd1
+      Nonce: 1623041
+    }
 
-    Block - Number 2
-      Timestamp: 20/01/2020
-      Data: [object Object]
-      Previous Hash: 000008faae186d3be8ff95d8b70fb2fc87349affad0524296a091e285989a20b
-      Hash: 000002ffc0895f6fbfa7254c598405da72bd34c871e2bef6e87c77a40268e84a
-      Nonce: 481506
-
-9:32:29 AM[LOG]: Block mined:   Block - Number 1
-      Timestamp: 20/01/2020
-      Data: [object Object]
-      Previous Hash: c59036cab9f28299448067aaad731446111ff426aa9003e34a9ebb92ecf36a61
-      Hash: 000008faae186d3be8ff95d8b70fb2fc87349affad0524296a091e285989a20b
-      Nonce: 110324
-9:32:34 AM[LOG]: Block mined:   Block - Number 2
-      Timestamp: 20/01/2020
-      Data: [object Object]
-      Previous Hash: 000008faae186d3be8ff95d8b70fb2fc87349affad0524296a091e285989a20b
-      Hash: 000002ffc0895f6fbfa7254c598405da72bd34c871e2bef6e87c77a40268e84a
-      Nonce: 481506
-9:32:34 AM[LOG]: Hello World
-9:32:34 AM[LOG]: Chain: 3 blocks
+4:12:54 PM[LOG]: 0
+4:14:41 PM[ERROR]: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f is not enough balance
+4:14:51 PM[LOG]: Block mined:     {
+      Block - Number 1
+      Timestamp: 1651396481624
+      Transactions: [
+          
+      fromAddress: null
+      toAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      amount: 100
+      signature: undefined
+    
+      ]
+      Previous Hash: 6c9767afdeb6b8dc67f68a8ebbc7db542e107fcd82b65a11cedcf9868b62a232
+      Hash: 00000412777003d1e82d0d72dc9c0feb0360abda595b9d33faa7d62bc3f4548e
+      Nonce: 1293608
+    }
+4:14:59 PM[LOG]: Block mined:     {
+      Block - Number 2
+      Timestamp: 1651396492005
+      Transactions: [
+          
+      fromAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      toAddress: address2
+      amount: 50
+      signature: 3046022100b0bce12c13e33f53b40e882bc6bcd8a5d581392727df1a693f35273f64c2bb0d022100981788493143f57e8a7f5aa6d28844ec90a843da45cafadaf20ca6416daad49d
+    ======================================================
+      fromAddress: null
+      toAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      amount: 100
+      signature: undefined
+    
+      ]
+      Previous Hash: 00000412777003d1e82d0d72dc9c0feb0360abda595b9d33faa7d62bc3f4548e
+      Hash: 000002272d22a523e4c8bb3530264575cd370c88693374ab7157108ef8873bf6
+      Nonce: 812495
+    }
+4:14:59 PM[LOG]: Chain: 3 blocks
 =============================0=============================
-  Block - Number 0
-      Timestamp: 
-      Data: Genesis Block
-      Previous Hash: 
-      Hash: c59036cab9f28299448067aaad731446111ff426aa9003e34a9ebb92ecf36a61
+    {
+      Block - Number 0
+      Timestamp: 1651396481565
+      Transactions: [
+          
+      ]
+      Previous Hash: Genesis Block
+      Hash: 6c9767afdeb6b8dc67f68a8ebbc7db542e107fcd82b65a11cedcf9868b62a232
       Nonce: 0
+    }
 =============================1=============================
-  Block - Number 1
-      Timestamp: 20/01/2020
-      Data: [object Object]
-      Previous Hash: c59036cab9f28299448067aaad731446111ff426aa9003e34a9ebb92ecf36a61
-      Hash: 000008faae186d3be8ff95d8b70fb2fc87349affad0524296a091e285989a20b
-      Nonce: 110324
+    {
+      Block - Number 1
+      Timestamp: 1651396481624
+      Transactions: [
+          
+      fromAddress: null
+      toAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      amount: 100
+      signature: undefined
+    
+      ]
+      Previous Hash: 6c9767afdeb6b8dc67f68a8ebbc7db542e107fcd82b65a11cedcf9868b62a232
+      Hash: 00000412777003d1e82d0d72dc9c0feb0360abda595b9d33faa7d62bc3f4548e
+      Nonce: 1293608
+    }
 =============================2=============================
-  Block - Number 2
-      Timestamp: 20/01/2020
-      Data: [object Object]
-      Previous Hash: 000008faae186d3be8ff95d8b70fb2fc87349affad0524296a091e285989a20b
-      Hash: 000002ffc0895f6fbfa7254c598405da72bd34c871e2bef6e87c77a40268e84a
-      Nonce: 481506
-
-1:51:37 PM[LOG]: Block mined:   Block - Number 1
-      Timestamp: [object Object],[object Object]
-      Data: undefined
-      Previous Hash: 
-      Hash: 00000ad3e52dde0570c3b14baceda8cb43ea4b06f7c7d8d9b7675b058c76a9fc
-      Nonce: 135613
-1:51:37 PM[LOG]: Chain: 2 blocks
-=============================0=============================
-  Block - Number 0
-      Timestamp: 
-      Data: undefined
-      Previous Hash: 
-      Hash: 097b34fad35d2930b6a6f7f797cd9ac0ff3ad95b6bf562aa7ac4fbfbf8f6b97a
-      Nonce: 0
-=============================1=============================
-  Block - Number 1
-      Timestamp: [object Object],[object Object]
-      Data: undefined
-      Previous Hash: 
-      Hash: 00000ad3e52dde0570c3b14baceda8cb43ea4b06f7c7d8d9b7675b058c76a9fc
-      Nonce: 135613
-
-2:07:14 PM[LOG]: Block mined:   Block - Number 1
-      Timestamp: [object Object],[object Object]
-      Data: undefined
-      Previous Hash: 
-      Hash: 00000ad3e52dde0570c3b14baceda8cb43ea4b06f7c7d8d9b7675b058c76a9fc
-      Nonce: 135613
-2:07:14 PM[LOG]: Chain: 2 blocks
-=============================0=============================
-  Block - Number 0
-      Timestamp: 
-      Data: undefined
-      Previous Hash: 
-      Hash: 097b34fad35d2930b6a6f7f797cd9ac0ff3ad95b6bf562aa7ac4fbfbf8f6b97a
-      Nonce: 0
-=============================1=============================
-  Block - Number 1
-      Timestamp: [object Object],[object Object]
-      Data: undefined
-      Previous Hash: 
-      Hash: 00000ad3e52dde0570c3b14baceda8cb43ea4b06f7c7d8d9b7675b058c76a9fc
-      Nonce: 135613
-
-2:07:14 PM[LOG]: address 1: 0
-2:07:14 PM[LOG]: address 2: 0
-2:09:35 PM[LOG]: Block mined:   Block - Number 1
-      Timestamp: 1651388966239
-      Data: undefined
-      Previous Hash: a6c3881d31ab7e602ee7cb19e2a6dc063bd56e1ed23096063536ea6a4b525ba6
-      Hash: 00000860180ede4668aef74c125526ed7277a6965fac01eab777c35b7a51e4d6
-      Nonce: 1248805
-2:09:35 PM[LOG]: Chain: 2 blocks
-=============================0=============================
-  Block - Number 0
-      Timestamp: 1651388966197
-      Data: undefined
-      Previous Hash: Genesis Block
-      Hash: a6c3881d31ab7e602ee7cb19e2a6dc063bd56e1ed23096063536ea6a4b525ba6
-      Nonce: 0
-=============================1=============================
-  Block - Number 1
-      Timestamp: 1651388966239
-      Data: undefined
-      Previous Hash: a6c3881d31ab7e602ee7cb19e2a6dc063bd56e1ed23096063536ea6a4b525ba6
-      Hash: 00000860180ede4668aef74c125526ed7277a6965fac01eab777c35b7a51e4d6
-      Nonce: 1248805
-
-2:09:35 PM[LOG]: address 1: -100
-2:09:35 PM[LOG]: address 2: 100
-2:13:18 PM[LOG]: Block mined:   Block - Number 1
-      Timestamp: 1651389196710
-      Transactions: 
-      fromAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
-      toAddress: address2
-      amount: 100
-      signature: 3045022100826824584f9ad55de034f8155f6904c35eea79a4c8b4ab9f33b7c7588a46fff5022079334b6460e4f61c73a36d11236997f7ef13bb18c5dea02f7d8ecb96b2717dfe
-    
-,
-      fromAddress: null
-      toAddress: address1
-      amount: 100
-      signature: undefined
-    
-
-      Previous Hash: 45c250e55fe359a470c95c484108a5d61a0c3bac62e3080ac398956032b43e7a
-      Hash: 00000af5086deea45a7334dd6d064e16f29ee008c06ca8b614d5fd53bb186e63
-      Nonce: 168884
-2:13:18 PM[LOG]: Chain: 2 blocks
-=============================0=============================
-  Block - Number 0
-      Timestamp: 1651389196665
-      Transactions: 
-      Previous Hash: Genesis Block
-      Hash: 45c250e55fe359a470c95c484108a5d61a0c3bac62e3080ac398956032b43e7a
-      Nonce: 0
-=============================1=============================
-  Block - Number 1
-      Timestamp: 1651389196710
-      Transactions: 
-      fromAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
-      toAddress: address2
-      amount: 100
-      signature: 3045022100826824584f9ad55de034f8155f6904c35eea79a4c8b4ab9f33b7c7588a46fff5022079334b6460e4f61c73a36d11236997f7ef13bb18c5dea02f7d8ecb96b2717dfe
-    
-,
-      fromAddress: null
-      toAddress: address1
-      amount: 100
-      signature: undefined
-    
-
-      Previous Hash: 45c250e55fe359a470c95c484108a5d61a0c3bac62e3080ac398956032b43e7a
-      Hash: 00000af5086deea45a7334dd6d064e16f29ee008c06ca8b614d5fd53bb186e63
-      Nonce: 168884
-
-2:13:18 PM[LOG]: address 1: -100
-2:13:18 PM[LOG]: address 2: 100
-2:15:17 PM[LOG]: Block mined:   Block - Number 1
-      Timestamp: 1651389316371
-      Transactions: [
-        
-      fromAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
-      toAddress: address2
-      amount: 100
-      signature: 3045022100826824584f9ad55de034f8155f6904c35eea79a4c8b4ab9f33b7c7588a46fff5022079334b6460e4f61c73a36d11236997f7ef13bb18c5dea02f7d8ecb96b2717dfe
-    
-
-      fromAddress: null
-      toAddress: address1
-      amount: 100
-      signature: undefined
-    
-      ]
-      Previous Hash: 42081a682ad58bc99617becb79b0c684ae749bd22fd0ec32f62c201d30a0d919
-      Hash: 000000ebd1bf1906b851a038378cbbb808715b0a8672912ba276140c4986f226
-      Nonce: 84896
-2:15:17 PM[LOG]: Chain: 2 blocks
-=============================0=============================
-  Block - Number 0
-      Timestamp: 1651389316324
-      Transactions: [
-        
-      ]
-      Previous Hash: Genesis Block
-      Hash: 42081a682ad58bc99617becb79b0c684ae749bd22fd0ec32f62c201d30a0d919
-      Nonce: 0
-=============================1=============================
-  Block - Number 1
-      Timestamp: 1651389316371
-      Transactions: [
-        
-      fromAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
-      toAddress: address2
-      amount: 100
-      signature: 3045022100826824584f9ad55de034f8155f6904c35eea79a4c8b4ab9f33b7c7588a46fff5022079334b6460e4f61c73a36d11236997f7ef13bb18c5dea02f7d8ecb96b2717dfe
-    
-
-      fromAddress: null
-      toAddress: address1
-      amount: 100
-      signature: undefined
-    
-      ]
-      Previous Hash: 42081a682ad58bc99617becb79b0c684ae749bd22fd0ec32f62c201d30a0d919
-      Hash: 000000ebd1bf1906b851a038378cbbb808715b0a8672912ba276140c4986f226
-      Nonce: 84896
-
-2:15:17 PM[LOG]: address 1: -100
-2:15:17 PM[LOG]: address 2: 100
-2:16:28 PM[LOG]: Block mined:   Block - Number 1
-      Timestamp: 1651389359007
+    {
+      Block - Number 2
+      Timestamp: 1651396492005
       Transactions: [
           
       fromAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
       toAddress: address2
-      amount: 100
-      signature: 3045022100826824584f9ad55de034f8155f6904c35eea79a4c8b4ab9f33b7c7588a46fff5022079334b6460e4f61c73a36d11236997f7ef13bb18c5dea02f7d8ecb96b2717dfe
-    ,
-      fromAddress: null
-      toAddress: address1
-      amount: 100
-      signature: undefined
-    
-      ]
-      Previous Hash: 67c3fd0fcf0ee1267075563d0c4474c16869f604bde5af3fdbd5b15cadf23874
-      Hash: 00000b25e916596a65ecd43fde83857cc06b34a74d398920e9f506c01d291de5
-      Nonce: 3673613
-2:16:28 PM[LOG]: Chain: 2 blocks
-=============================0=============================
-  Block - Number 0
-      Timestamp: 1651389358966
-      Transactions: [
-          
-      ]
-      Previous Hash: Genesis Block
-      Hash: 67c3fd0fcf0ee1267075563d0c4474c16869f604bde5af3fdbd5b15cadf23874
-      Nonce: 0
-=============================1=============================
-  Block - Number 1
-      Timestamp: 1651389359007
-      Transactions: [
-          
-      fromAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
-      toAddress: address2
-      amount: 100
-      signature: 3045022100826824584f9ad55de034f8155f6904c35eea79a4c8b4ab9f33b7c7588a46fff5022079334b6460e4f61c73a36d11236997f7ef13bb18c5dea02f7d8ecb96b2717dfe
-    ,
-      fromAddress: null
-      toAddress: address1
-      amount: 100
-      signature: undefined
-    
-      ]
-      Previous Hash: 67c3fd0fcf0ee1267075563d0c4474c16869f604bde5af3fdbd5b15cadf23874
-      Hash: 00000b25e916596a65ecd43fde83857cc06b34a74d398920e9f506c01d291de5
-      Nonce: 3673613
-
-2:16:28 PM[LOG]: address 1: -100
-2:16:28 PM[LOG]: address 2: 100
-2:17:49 PM[LOG]: Block mined:   Block - Number 1
-      Timestamp: 1651389469009
-      Transactions: [
-          	
-      fromAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
-      toAddress: address2
-      amount: 100
-      signature: 3045022100826824584f9ad55de034f8155f6904c35eea79a4c8b4ab9f33b7c7588a46fff5022079334b6460e4f61c73a36d11236997f7ef13bb18c5dea02f7d8ecb96b2717dfe
-    ,	
-      fromAddress: null
-      toAddress: address1
-      amount: 100
-      signature: undefined
-    
-      ]
-      Previous Hash: e49b48f7b67f7f60695f4f14398c0294872013f772a0efcd98a290d0f7b352ee
-      Hash: 00000768ae63d3676d86439d3f7e8f710b2e196c5d3caaac6f31dc0fdafe64e1
-      Nonce: 72095
-2:17:49 PM[LOG]: Chain: 2 blocks
-=============================0=============================
-  Block - Number 0
-      Timestamp: 1651389468959
-      Transactions: [
-          
-      ]
-      Previous Hash: Genesis Block
-      Hash: e49b48f7b67f7f60695f4f14398c0294872013f772a0efcd98a290d0f7b352ee
-      Nonce: 0
-=============================1=============================
-  Block - Number 1
-      Timestamp: 1651389469009
-      Transactions: [
-          	
-      fromAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
-      toAddress: address2
-      amount: 100
-      signature: 3045022100826824584f9ad55de034f8155f6904c35eea79a4c8b4ab9f33b7c7588a46fff5022079334b6460e4f61c73a36d11236997f7ef13bb18c5dea02f7d8ecb96b2717dfe
-    ,	
-      fromAddress: null
-      toAddress: address1
-      amount: 100
-      signature: undefined
-    
-      ]
-      Previous Hash: e49b48f7b67f7f60695f4f14398c0294872013f772a0efcd98a290d0f7b352ee
-      Hash: 00000768ae63d3676d86439d3f7e8f710b2e196c5d3caaac6f31dc0fdafe64e1
-      Nonce: 72095
-
-2:17:49 PM[LOG]: address 1: -100
-2:17:49 PM[LOG]: address 2: 100
-2:19:35 PM[LOG]: Block mined:   Block - Number 1
-      Timestamp: 1651389571931
-      Transactions: [
-          
-      fromAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
-      toAddress: address2
-      amount: 100
-      signature: 3045022100826824584f9ad55de034f8155f6904c35eea79a4c8b4ab9f33b7c7588a46fff5022079334b6460e4f61c73a36d11236997f7ef13bb18c5dea02f7d8ecb96b2717dfe
-    ======================================================
-      fromAddress: null
-      toAddress: address1
-      amount: 100
-      signature: undefined
-    
-      ]
-      Previous Hash: aa4240ab2900b543b8bc9db7d23acb93ef8d89f9673bd6729f41cd1bc5d7eea1
-      Hash: 000006798f34f09d6ad549aed8c816eb272452e89307af3fd78c78d8485677c3
-      Nonce: 427568
-2:19:35 PM[LOG]: Chain: 2 blocks
-=============================0=============================
-  Block - Number 0
-      Timestamp: 1651389571885
-      Transactions: [
-          
-      ]
-      Previous Hash: Genesis Block
-      Hash: aa4240ab2900b543b8bc9db7d23acb93ef8d89f9673bd6729f41cd1bc5d7eea1
-      Nonce: 0
-=============================1=============================
-  Block - Number 1
-      Timestamp: 1651389571931
-      Transactions: [
-          
-      fromAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
-      toAddress: address2
-      amount: 100
-      signature: 3045022100826824584f9ad55de034f8155f6904c35eea79a4c8b4ab9f33b7c7588a46fff5022079334b6460e4f61c73a36d11236997f7ef13bb18c5dea02f7d8ecb96b2717dfe
-    ======================================================
-      fromAddress: null
-      toAddress: address1
-      amount: 100
-      signature: undefined
-    
-      ]
-      Previous Hash: aa4240ab2900b543b8bc9db7d23acb93ef8d89f9673bd6729f41cd1bc5d7eea1
-      Hash: 000006798f34f09d6ad549aed8c816eb272452e89307af3fd78c78d8485677c3
-      Nonce: 427568
-
-2:19:35 PM[LOG]: address 1: -100
-2:19:35 PM[LOG]: address 2: 100
-2:21:22 PM[LOG]: Block mined:   Block - Number 1
-      Timestamp: 1651389677055
-      Transactions: [
-          
-      fromAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
-      toAddress: address2
-      amount: 100
-      signature: 3045022100826824584f9ad55de034f8155f6904c35eea79a4c8b4ab9f33b7c7588a46fff5022079334b6460e4f61c73a36d11236997f7ef13bb18c5dea02f7d8ecb96b2717dfe
-    ======================================================
-      fromAddress: null
-      toAddress: undefined
-      amount: 100
-      signature: undefined
-    
-      ]
-      Previous Hash: ee1bfc68fb7f2a7f1a8ea7552ea3a4e8be6d63c86e01c9b841b724e06acd8d54
-      Hash: 00000a07b8859829c73dc668979c709798c3e421fc153354eb2b42acd976009e
-      Nonce: 726273
-2:21:22 PM[LOG]: Chain: 2 blocks
-=============================0=============================
-  Block - Number 0
-      Timestamp: 1651389677008
-      Transactions: [
-          
-      ]
-      Previous Hash: Genesis Block
-      Hash: ee1bfc68fb7f2a7f1a8ea7552ea3a4e8be6d63c86e01c9b841b724e06acd8d54
-      Nonce: 0
-=============================1=============================
-  Block - Number 1
-      Timestamp: 1651389677055
-      Transactions: [
-          
-      fromAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
-      toAddress: address2
-      amount: 100
-      signature: 3045022100826824584f9ad55de034f8155f6904c35eea79a4c8b4ab9f33b7c7588a46fff5022079334b6460e4f61c73a36d11236997f7ef13bb18c5dea02f7d8ecb96b2717dfe
-    ======================================================
-      fromAddress: null
-      toAddress: undefined
-      amount: 100
-      signature: undefined
-    
-      ]
-      Previous Hash: ee1bfc68fb7f2a7f1a8ea7552ea3a4e8be6d63c86e01c9b841b724e06acd8d54
-      Hash: 00000a07b8859829c73dc668979c709798c3e421fc153354eb2b42acd976009e
-      Nonce: 726273
-
-2:21:22 PM[LOG]: address 1: -100
-2:21:22 PM[LOG]: address 2: 100
-2:21:43 PM[LOG]: Block mined:   Block - Number 1
-      Timestamp: 1651389695535
-      Transactions: [
-          
-      fromAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
-      toAddress: address2
-      amount: 100
-      signature: 3045022100826824584f9ad55de034f8155f6904c35eea79a4c8b4ab9f33b7c7588a46fff5022079334b6460e4f61c73a36d11236997f7ef13bb18c5dea02f7d8ecb96b2717dfe
+      amount: 50
+      signature: 3046022100b0bce12c13e33f53b40e882bc6bcd8a5d581392727df1a693f35273f64c2bb0d022100981788493143f57e8a7f5aa6d28844ec90a843da45cafadaf20ca6416daad49d
     ======================================================
       fromAddress: null
       toAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
@@ -542,44 +166,16 @@ Block -
       signature: undefined
     
       ]
-      Previous Hash: 9ea74dca3e71355457c134f332dacd797dc711ac16d03992879079914d4108e6
-      Hash: 00000ed4e92691d878e0de9f2bf4118ec4e0cc084d4880dab5e8a135999084a8
-      Nonce: 947453
-2:21:43 PM[LOG]: Chain: 2 blocks
-=============================0=============================
-  Block - Number 0
-      Timestamp: 1651389695486
-      Transactions: [
-          
-      ]
-      Previous Hash: Genesis Block
-      Hash: 9ea74dca3e71355457c134f332dacd797dc711ac16d03992879079914d4108e6
-      Nonce: 0
-=============================1=============================
-  Block - Number 1
-      Timestamp: 1651389695535
-      Transactions: [
-          
-      fromAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
-      toAddress: address2
-      amount: 100
-      signature: 3045022100826824584f9ad55de034f8155f6904c35eea79a4c8b4ab9f33b7c7588a46fff5022079334b6460e4f61c73a36d11236997f7ef13bb18c5dea02f7d8ecb96b2717dfe
-    ======================================================
-      fromAddress: null
-      toAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
-      amount: 100
-      signature: undefined
-    
-      ]
-      Previous Hash: 9ea74dca3e71355457c134f332dacd797dc711ac16d03992879079914d4108e6
-      Hash: 00000ed4e92691d878e0de9f2bf4118ec4e0cc084d4880dab5e8a135999084a8
-      Nonce: 947453
+      Previous Hash: 00000412777003d1e82d0d72dc9c0feb0360abda595b9d33faa7d62bc3f4548e
+      Hash: 000002272d22a523e4c8bb3530264575cd370c88693374ab7157108ef8873bf6
+      Nonce: 812495
+    }
 
-2:21:43 PM[LOG]: address 1: 0
-2:21:43 PM[LOG]: address 2: 100
-2:30:47 PM[ERROR]: Error: Not enough balance
-2:30:51 PM[LOG]: Block mined:   Block - Number 1
-      Timestamp: 1651390247474
+4:14:59 PM[LOG]: 0
+4:15:34 PM[ERROR]: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f is not enough balance
+4:15:52 PM[LOG]: Block mined:     {
+      Block - Number 1
+      Timestamp: 1651396534082
       Transactions: [
           
       fromAddress: null
@@ -588,22 +184,46 @@ Block -
       signature: undefined
     
       ]
-      Previous Hash: fa90031daf90be6562d72c924925b82ee3b19600d073fe185f9f5a7e72ab3eab
-      Hash: 00000a970352c597ea876f55f32da607b31127c6571deda364a3f90ba640266c
-      Nonce: 428301
-2:30:51 PM[LOG]: Chain: 2 blocks
+      Previous Hash: 0b74e6323134eba0fd1ecb5bcdec9ccd5a9caa488c987f1d845b4647cc2f1523
+      Hash: 00000664e4a747a1187ee7e1a6b591399b2e0f5a4225277d1d541e16ce8de0f8
+      Nonce: 2339262
+    }
+4:15:52 PM[LOG]: Block mined:     {
+      Block - Number 2
+      Timestamp: 1651396552520
+      Transactions: [
+          
+      fromAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      toAddress: address2
+      amount: 50
+      signature: 3046022100b0bce12c13e33f53b40e882bc6bcd8a5d581392727df1a693f35273f64c2bb0d022100981788493143f57e8a7f5aa6d28844ec90a843da45cafadaf20ca6416daad49d
+    ======================================================
+      fromAddress: null
+      toAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      amount: 100
+      signature: undefined
+    
+      ]
+      Previous Hash: 00000664e4a747a1187ee7e1a6b591399b2e0f5a4225277d1d541e16ce8de0f8
+      Hash: 00000dd011f4a924eb027d6346d34afc34d7c2cc1f2eb042a998bd198c23ac0a
+      Nonce: 27307
+    }
+4:15:52 PM[LOG]: Chain: 3 blocks
 =============================0=============================
-  Block - Number 0
-      Timestamp: 1651390247371
+    {
+      Block - Number 0
+      Timestamp: 1651396534014
       Transactions: [
           
       ]
       Previous Hash: Genesis Block
-      Hash: fa90031daf90be6562d72c924925b82ee3b19600d073fe185f9f5a7e72ab3eab
+      Hash: 0b74e6323134eba0fd1ecb5bcdec9ccd5a9caa488c987f1d845b4647cc2f1523
       Nonce: 0
+    }
 =============================1=============================
-  Block - Number 1
-      Timestamp: 1651390247474
+    {
+      Block - Number 1
+      Timestamp: 1651396534082
       Transactions: [
           
       fromAddress: null
@@ -612,9 +232,1014 @@ Block -
       signature: undefined
     
       ]
-      Previous Hash: fa90031daf90be6562d72c924925b82ee3b19600d073fe185f9f5a7e72ab3eab
-      Hash: 00000a970352c597ea876f55f32da607b31127c6571deda364a3f90ba640266c
-      Nonce: 428301
+      Previous Hash: 0b74e6323134eba0fd1ecb5bcdec9ccd5a9caa488c987f1d845b4647cc2f1523
+      Hash: 00000664e4a747a1187ee7e1a6b591399b2e0f5a4225277d1d541e16ce8de0f8
+      Nonce: 2339262
+    }
+=============================2=============================
+    {
+      Block - Number 2
+      Timestamp: 1651396552520
+      Transactions: [
+          
+      fromAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      toAddress: address2
+      amount: 50
+      signature: 3046022100b0bce12c13e33f53b40e882bc6bcd8a5d581392727df1a693f35273f64c2bb0d022100981788493143f57e8a7f5aa6d28844ec90a843da45cafadaf20ca6416daad49d
+    ======================================================
+      fromAddress: null
+      toAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      amount: 100
+      signature: undefined
+    
+      ]
+      Previous Hash: 00000664e4a747a1187ee7e1a6b591399b2e0f5a4225277d1d541e16ce8de0f8
+      Hash: 00000dd011f4a924eb027d6346d34afc34d7c2cc1f2eb042a998bd198c23ac0a
+      Nonce: 27307
+    }
 
-2:30:51 PM[LOG]: address 1: 100
-2:30:51 PM[LOG]: address 2: 0
+4:15:52 PM[LOG]: 0
+4:18:11 PM[ERROR]: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f is not enough balance
+4:18:11 PM[LOG]: Block mined:     {
+      Block - Number 1
+      Timestamp: 1651396691104
+      Transactions: [
+          
+      fromAddress: null
+      toAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      amount: 100
+      signature: undefined
+    
+      ]
+      Previous Hash: 2c62f4b44a5935cadaedeb037d240b90aac457ac8bce36d6092a1c7c5ccbe9b1
+      Hash: 000008b2a79babe5f48b0dbfd36fe781704194f6bf22ebf719b24ed803c91d05
+      Nonce: 95728
+    }
+4:18:13 PM[LOG]: Block mined:     {
+      Block - Number 2
+      Timestamp: 1651396691944
+      Transactions: [
+          
+      fromAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      toAddress: address2
+      amount: 50
+      signature: 3046022100b0bce12c13e33f53b40e882bc6bcd8a5d581392727df1a693f35273f64c2bb0d022100981788493143f57e8a7f5aa6d28844ec90a843da45cafadaf20ca6416daad49d
+    ======================================================
+      fromAddress: null
+      toAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      amount: 100
+      signature: undefined
+    
+      ]
+      Previous Hash: 000008b2a79babe5f48b0dbfd36fe781704194f6bf22ebf719b24ed803c91d05
+      Hash: 000003333cad24297e114794265865226097d73d2481e803903892480c376c78
+      Nonce: 139293
+    }
+4:18:13 PM[LOG]: Chain: 3 blocks
+=============================0=============================
+    {
+      Block - Number 0
+      Timestamp: 1651396691039
+      Transactions: [
+          
+      ]
+      Previous Hash: Genesis Block
+      Hash: 2c62f4b44a5935cadaedeb037d240b90aac457ac8bce36d6092a1c7c5ccbe9b1
+      Nonce: 0
+    }
+=============================1=============================
+    {
+      Block - Number 1
+      Timestamp: 1651396691104
+      Transactions: [
+          
+      fromAddress: null
+      toAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      amount: 100
+      signature: undefined
+    
+      ]
+      Previous Hash: 2c62f4b44a5935cadaedeb037d240b90aac457ac8bce36d6092a1c7c5ccbe9b1
+      Hash: 000008b2a79babe5f48b0dbfd36fe781704194f6bf22ebf719b24ed803c91d05
+      Nonce: 95728
+    }
+=============================2=============================
+    {
+      Block - Number 2
+      Timestamp: 1651396691944
+      Transactions: [
+          
+      fromAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      toAddress: address2
+      amount: 50
+      signature: 3046022100b0bce12c13e33f53b40e882bc6bcd8a5d581392727df1a693f35273f64c2bb0d022100981788493143f57e8a7f5aa6d28844ec90a843da45cafadaf20ca6416daad49d
+    ======================================================
+      fromAddress: null
+      toAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      amount: 100
+      signature: undefined
+    
+      ]
+      Previous Hash: 000008b2a79babe5f48b0dbfd36fe781704194f6bf22ebf719b24ed803c91d05
+      Hash: 000003333cad24297e114794265865226097d73d2481e803903892480c376c78
+      Nonce: 139293
+    }
+
+4:18:13 PM[LOG]: 0
+4:20:34 PM[ERROR]: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f is not enough balance
+4:20:54 PM[LOG]: Block mined:     {
+      Block - Number 1
+      Timestamp: 1651396834143
+      Transactions: [
+          
+      fromAddress: null
+      toAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      amount: 100
+      signature: undefined
+    
+      ]
+      Previous Hash: 7bc7be68c4b40021ae0a64ac0772609d69921cf12d961f9fa313027cb51afb2e
+      Hash: 00000248c6f594e6f051877f5f82814d9a3ed3fd7b06932256bf95524f6156f4
+      Nonce: 2621475
+    }
+4:20:58 PM[LOG]: Block mined:     {
+      Block - Number 2
+      Timestamp: 1651396854877
+      Transactions: [
+          
+      fromAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      toAddress: address2
+      amount: 50
+      signature: 3046022100b0bce12c13e33f53b40e882bc6bcd8a5d581392727df1a693f35273f64c2bb0d022100981788493143f57e8a7f5aa6d28844ec90a843da45cafadaf20ca6416daad49d
+    ======================================================
+      fromAddress: null
+      toAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      amount: 100
+      signature: undefined
+    
+      ]
+      Previous Hash: 00000248c6f594e6f051877f5f82814d9a3ed3fd7b06932256bf95524f6156f4
+      Hash: 000009e59d3e17c5662c6f71a336c6e2d06de1f64572494fa8352e339ab10919
+      Nonce: 412400
+    }
+4:20:58 PM[LOG]: Chain: 3 blocks
+=============================0=============================
+    {
+      Block - Number 0
+      Timestamp: 1651396834084
+      Transactions: [
+          
+      ]
+      Previous Hash: Genesis Block
+      Hash: 7bc7be68c4b40021ae0a64ac0772609d69921cf12d961f9fa313027cb51afb2e
+      Nonce: 0
+    }
+=============================1=============================
+    {
+      Block - Number 1
+      Timestamp: 1651396834143
+      Transactions: [
+          
+      fromAddress: null
+      toAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      amount: 100
+      signature: undefined
+    
+      ]
+      Previous Hash: 7bc7be68c4b40021ae0a64ac0772609d69921cf12d961f9fa313027cb51afb2e
+      Hash: 00000248c6f594e6f051877f5f82814d9a3ed3fd7b06932256bf95524f6156f4
+      Nonce: 2621475
+    }
+=============================2=============================
+    {
+      Block - Number 2
+      Timestamp: 1651396854877
+      Transactions: [
+          
+      fromAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      toAddress: address2
+      amount: 50
+      signature: 3046022100b0bce12c13e33f53b40e882bc6bcd8a5d581392727df1a693f35273f64c2bb0d022100981788493143f57e8a7f5aa6d28844ec90a843da45cafadaf20ca6416daad49d
+    ======================================================
+      fromAddress: null
+      toAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      amount: 100
+      signature: undefined
+    
+      ]
+      Previous Hash: 00000248c6f594e6f051877f5f82814d9a3ed3fd7b06932256bf95524f6156f4
+      Hash: 000009e59d3e17c5662c6f71a336c6e2d06de1f64572494fa8352e339ab10919
+      Nonce: 412400
+    }
+
+4:20:58 PM[LOG]: 0
+4:24:05 PM[ERROR]: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f is not enough balance
+4:24:17 PM[LOG]: Block mined:     {
+      Block - Number 1
+      Timestamp: 1651397045314
+      Transactions: [
+          
+      fromAddress: null
+      toAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      amount: 100
+      signature: undefined
+    
+      ]
+      Previous Hash: 34408715f0672a1b46daa60bce619caaf3053a5d4f619167ef2a85f3d776f171
+      Hash: 000001f6da25ca33eec0ddd48c5e5409855d7e7e9d2c5533221a71e60715616d
+      Nonce: 1471274
+    }
+4:24:22 PM[LOG]: Block mined:     {
+      Block - Number 2
+      Timestamp: 1651397057124
+      Transactions: [
+          
+      fromAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      toAddress: address2
+      amount: 50
+      signature: 3046022100b0bce12c13e33f53b40e882bc6bcd8a5d581392727df1a693f35273f64c2bb0d022100981788493143f57e8a7f5aa6d28844ec90a843da45cafadaf20ca6416daad49d
+    ======================================================
+      fromAddress: null
+      toAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      amount: 100
+      signature: undefined
+    
+      ]
+      Previous Hash: 000001f6da25ca33eec0ddd48c5e5409855d7e7e9d2c5533221a71e60715616d
+      Hash: 000007c8fd5df3a0168004b6d97e05274ffb3057cce41da8ddc81474aa406fea
+      Nonce: 626543
+    }
+4:24:22 PM[LOG]: Chain: 3 blocks
+=============================0=============================
+    {
+      Block - Number 0
+      Timestamp: 1651397045251
+      Transactions: [
+          
+      ]
+      Previous Hash: Genesis Block
+      Hash: 34408715f0672a1b46daa60bce619caaf3053a5d4f619167ef2a85f3d776f171
+      Nonce: 0
+    }
+=============================1=============================
+    {
+      Block - Number 1
+      Timestamp: 1651397045314
+      Transactions: [
+          
+      fromAddress: null
+      toAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      amount: 100
+      signature: undefined
+    
+      ]
+      Previous Hash: 34408715f0672a1b46daa60bce619caaf3053a5d4f619167ef2a85f3d776f171
+      Hash: 000001f6da25ca33eec0ddd48c5e5409855d7e7e9d2c5533221a71e60715616d
+      Nonce: 1471274
+    }
+=============================2=============================
+    {
+      Block - Number 2
+      Timestamp: 1651397057124
+      Transactions: [
+          
+      fromAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      toAddress: address2
+      amount: 50
+      signature: 3046022100b0bce12c13e33f53b40e882bc6bcd8a5d581392727df1a693f35273f64c2bb0d022100981788493143f57e8a7f5aa6d28844ec90a843da45cafadaf20ca6416daad49d
+    ======================================================
+      fromAddress: null
+      toAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      amount: 100
+      signature: undefined
+    
+      ]
+      Previous Hash: 000001f6da25ca33eec0ddd48c5e5409855d7e7e9d2c5533221a71e60715616d
+      Hash: 000007c8fd5df3a0168004b6d97e05274ffb3057cce41da8ddc81474aa406fea
+      Nonce: 626543
+    }
+
+4:24:22 PM[LOG]: 0
+4:24:52 PM[ERROR]: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f is not enough balance
+4:24:54 PM[LOG]: Block mined:     {
+      Block - Number 1
+      Timestamp: 1651397092332
+      Transactions: [
+          
+      fromAddress: null
+      toAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      amount: 100
+      signature: undefined
+    
+      ]
+      Previous Hash: 99300894e6d8f2c58318ce121774b1e98a1b478741a038068abe3f5bd6218d58
+      Hash: 00000c36e5736d2c02cfe76c4743012c0890fc1076eb5fe639283e5effb76aee
+      Nonce: 242326
+    }
+4:25:10 PM[LOG]: Block mined:     {
+      Block - Number 2
+      Timestamp: 1651397094396
+      Transactions: [
+          
+      fromAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      toAddress: address2
+      amount: 50
+      signature: 3046022100b0bce12c13e33f53b40e882bc6bcd8a5d581392727df1a693f35273f64c2bb0d022100981788493143f57e8a7f5aa6d28844ec90a843da45cafadaf20ca6416daad49d
+    ======================================================
+      fromAddress: null
+      toAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      amount: 100
+      signature: undefined
+    
+      ]
+      Previous Hash: 00000c36e5736d2c02cfe76c4743012c0890fc1076eb5fe639283e5effb76aee
+      Hash: 00000b5d5554324cac3a156e0beef1fb4da13a3ae77d08803f74b129ea8292e6
+      Nonce: 1892941
+    }
+4:25:10 PM[LOG]: Chain: 3 blocks
+=============================0=============================
+    {
+      Block - Number 0
+      Timestamp: 1651397092270
+      Transactions: [
+          
+      ]
+      Previous Hash: Genesis Block
+      Hash: 99300894e6d8f2c58318ce121774b1e98a1b478741a038068abe3f5bd6218d58
+      Nonce: 0
+    }
+=============================1=============================
+    {
+      Block - Number 1
+      Timestamp: 1651397092332
+      Transactions: [
+          
+      fromAddress: null
+      toAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      amount: 100
+      signature: undefined
+    
+      ]
+      Previous Hash: 99300894e6d8f2c58318ce121774b1e98a1b478741a038068abe3f5bd6218d58
+      Hash: 00000c36e5736d2c02cfe76c4743012c0890fc1076eb5fe639283e5effb76aee
+      Nonce: 242326
+    }
+=============================2=============================
+    {
+      Block - Number 2
+      Timestamp: 1651397094396
+      Transactions: [
+          
+      fromAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      toAddress: address2
+      amount: 50
+      signature: 3046022100b0bce12c13e33f53b40e882bc6bcd8a5d581392727df1a693f35273f64c2bb0d022100981788493143f57e8a7f5aa6d28844ec90a843da45cafadaf20ca6416daad49d
+    ======================================================
+      fromAddress: null
+      toAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      amount: 100
+      signature: undefined
+    
+      ]
+      Previous Hash: 00000c36e5736d2c02cfe76c4743012c0890fc1076eb5fe639283e5effb76aee
+      Hash: 00000b5d5554324cac3a156e0beef1fb4da13a3ae77d08803f74b129ea8292e6
+      Nonce: 1892941
+    }
+
+4:25:10 PM[LOG]: 0
+4:32:19 PM[LOG]: 0
+4:32:20 PM[ERROR]: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f is not enough balance
+4:32:44 PM[LOG]: Block mined:     {
+      Block - Number 1
+      Timestamp: 1651397540028
+      Transactions: [
+          
+      fromAddress: null
+      toAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      amount: 100
+      signature: undefined
+    
+      ]
+      Previous Hash: d18e385069c377cf928abc30d6d8c6ff413923512ec21675c5c673415316d5b9
+      Hash: 000003922e25601db5d068a12e859bb01559677b20665894b32d200ad5bc990f
+      Nonce: 3088095
+    }
+4:32:48 PM[LOG]: Block mined:     {
+      Block - Number 2
+      Timestamp: 1651397564509
+      Transactions: [
+          
+      fromAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      toAddress: address2
+      amount: 50
+      signature: 3046022100b0bce12c13e33f53b40e882bc6bcd8a5d581392727df1a693f35273f64c2bb0d022100981788493143f57e8a7f5aa6d28844ec90a843da45cafadaf20ca6416daad49d
+    ======================================================
+      fromAddress: null
+      toAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      amount: 100
+      signature: undefined
+    
+      ]
+      Previous Hash: 000003922e25601db5d068a12e859bb01559677b20665894b32d200ad5bc990f
+      Hash: 000000c92e21bb4fec2988c296cb2449e29351314d17fca294544b35f8edabcd
+      Nonce: 448761
+    }
+4:32:48 PM[LOG]: Chain: 3 blocks
+=============================0=============================
+    {
+      Block - Number 0
+      Timestamp: 1651397539981
+      Transactions: [
+          
+      ]
+      Previous Hash: Genesis Block
+      Hash: d18e385069c377cf928abc30d6d8c6ff413923512ec21675c5c673415316d5b9
+      Nonce: 0
+    }
+=============================1=============================
+    {
+      Block - Number 1
+      Timestamp: 1651397540028
+      Transactions: [
+          
+      fromAddress: null
+      toAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      amount: 100
+      signature: undefined
+    
+      ]
+      Previous Hash: d18e385069c377cf928abc30d6d8c6ff413923512ec21675c5c673415316d5b9
+      Hash: 000003922e25601db5d068a12e859bb01559677b20665894b32d200ad5bc990f
+      Nonce: 3088095
+    }
+=============================2=============================
+    {
+      Block - Number 2
+      Timestamp: 1651397564509
+      Transactions: [
+          
+      fromAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      toAddress: address2
+      amount: 50
+      signature: 3046022100b0bce12c13e33f53b40e882bc6bcd8a5d581392727df1a693f35273f64c2bb0d022100981788493143f57e8a7f5aa6d28844ec90a843da45cafadaf20ca6416daad49d
+    ======================================================
+      fromAddress: null
+      toAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      amount: 100
+      signature: undefined
+    
+      ]
+      Previous Hash: 000003922e25601db5d068a12e859bb01559677b20665894b32d200ad5bc990f
+      Hash: 000000c92e21bb4fec2988c296cb2449e29351314d17fca294544b35f8edabcd
+      Nonce: 448761
+    }
+
+4:33:34 PM[LOG]: 0
+4:33:34 PM[ERROR]: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f is not enough balance
+4:33:39 PM[LOG]: Block mined:     {
+      Block - Number 1
+      Timestamp: 1651397614893
+      Transactions: [
+          
+      fromAddress: null
+      toAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      amount: 100
+      signature: undefined
+    
+      ]
+      Previous Hash: dcc314684552ead63eb90cb45c7551e0fb34b0d27481a7fbf80ec9a164d2567f
+      Hash: 0000018e4e8773dd9bac17350b67e70b3461bb37e069392c676746ba24ae7f01
+      Nonce: 520558
+    }
+4:33:45 PM[LOG]: Block mined:     {
+      Block - Number 2
+      Timestamp: 1651397619087
+      Transactions: [
+          
+      fromAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      toAddress: address2
+      amount: 50
+      signature: 3046022100b0bce12c13e33f53b40e882bc6bcd8a5d581392727df1a693f35273f64c2bb0d022100981788493143f57e8a7f5aa6d28844ec90a843da45cafadaf20ca6416daad49d
+    ======================================================
+      fromAddress: null
+      toAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      amount: 100
+      signature: undefined
+    
+      ]
+      Previous Hash: 0000018e4e8773dd9bac17350b67e70b3461bb37e069392c676746ba24ae7f01
+      Hash: 00000b0a12c4977eba28a46777fdd6cf6a15bb7143a15361afc42ce00e93d0d8
+      Nonce: 836764
+    }
+4:33:45 PM[LOG]: Chain: 3 blocks
+=============================0=============================
+    {
+      Block - Number 0
+      Timestamp: 1651397614849
+      Transactions: [
+          
+      ]
+      Previous Hash: Genesis Block
+      Hash: dcc314684552ead63eb90cb45c7551e0fb34b0d27481a7fbf80ec9a164d2567f
+      Nonce: 0
+    }
+=============================1=============================
+    {
+      Block - Number 1
+      Timestamp: 1651397614893
+      Transactions: [
+          
+      fromAddress: null
+      toAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      amount: 100
+      signature: undefined
+    
+      ]
+      Previous Hash: dcc314684552ead63eb90cb45c7551e0fb34b0d27481a7fbf80ec9a164d2567f
+      Hash: 0000018e4e8773dd9bac17350b67e70b3461bb37e069392c676746ba24ae7f01
+      Nonce: 520558
+    }
+=============================2=============================
+    {
+      Block - Number 2
+      Timestamp: 1651397619087
+      Transactions: [
+          
+      fromAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      toAddress: address2
+      amount: 50
+      signature: 3046022100b0bce12c13e33f53b40e882bc6bcd8a5d581392727df1a693f35273f64c2bb0d022100981788493143f57e8a7f5aa6d28844ec90a843da45cafadaf20ca6416daad49d
+    ======================================================
+      fromAddress: null
+      toAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      amount: 100
+      signature: undefined
+    
+      ]
+      Previous Hash: 0000018e4e8773dd9bac17350b67e70b3461bb37e069392c676746ba24ae7f01
+      Hash: 00000b0a12c4977eba28a46777fdd6cf6a15bb7143a15361afc42ce00e93d0d8
+      Nonce: 836764
+    }
+
+4:35:15 PM[LOG]: 0
+4:35:15 PM[ERROR]: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f is not enough balance
+4:35:15 PM[LOG]: Block mined:     {
+      Block - Number 1
+      Timestamp: 1651397715376
+      Transactions: [
+          
+      fromAddress: null
+      toAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      amount: 100
+      signature: undefined
+    
+      ]
+      Previous Hash: 33abe271a03a6b497077a93ef7334d7b4c87b656654c1b46b580bfde1c584879
+      Hash: 0000055d7799a5a7ca6e87fe802969e18cf7918c117adb5ef66f8d3a79b661b2
+      Nonce: 24102
+    }
+4:35:31 PM[LOG]: Block mined:     {
+      Block - Number 2
+      Timestamp: 1651397715612
+      Transactions: [
+          
+      fromAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      toAddress: address2
+      amount: 50
+      signature: 3046022100b0bce12c13e33f53b40e882bc6bcd8a5d581392727df1a693f35273f64c2bb0d022100981788493143f57e8a7f5aa6d28844ec90a843da45cafadaf20ca6416daad49d
+    ======================================================
+      fromAddress: null
+      toAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      amount: 100
+      signature: undefined
+    
+      ]
+      Previous Hash: 0000055d7799a5a7ca6e87fe802969e18cf7918c117adb5ef66f8d3a79b661b2
+      Hash: 0000059505606c3142c54b63f79d141f4ca5558f69370ba859e95423b3ab1c73
+      Nonce: 1823649
+    }
+4:35:31 PM[LOG]: Chain: 3 blocks
+=============================0=============================
+    {
+      Block - Number 0
+      Timestamp: 1651397715333
+      Transactions: [
+          
+      ]
+      Previous Hash: Genesis Block
+      Hash: 33abe271a03a6b497077a93ef7334d7b4c87b656654c1b46b580bfde1c584879
+      Nonce: 0
+    }
+=============================1=============================
+    {
+      Block - Number 1
+      Timestamp: 1651397715376
+      Transactions: [
+          
+      fromAddress: null
+      toAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      amount: 100
+      signature: undefined
+    
+      ]
+      Previous Hash: 33abe271a03a6b497077a93ef7334d7b4c87b656654c1b46b580bfde1c584879
+      Hash: 0000055d7799a5a7ca6e87fe802969e18cf7918c117adb5ef66f8d3a79b661b2
+      Nonce: 24102
+    }
+=============================2=============================
+    {
+      Block - Number 2
+      Timestamp: 1651397715612
+      Transactions: [
+          
+      fromAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      toAddress: address2
+      amount: 50
+      signature: 3046022100b0bce12c13e33f53b40e882bc6bcd8a5d581392727df1a693f35273f64c2bb0d022100981788493143f57e8a7f5aa6d28844ec90a843da45cafadaf20ca6416daad49d
+    ======================================================
+      fromAddress: null
+      toAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      amount: 100
+      signature: undefined
+    
+      ]
+      Previous Hash: 0000055d7799a5a7ca6e87fe802969e18cf7918c117adb5ef66f8d3a79b661b2
+      Hash: 0000059505606c3142c54b63f79d141f4ca5558f69370ba859e95423b3ab1c73
+      Nonce: 1823649
+    }
+
+4:37:30 PM[LOG]: 0
+4:37:30 PM[ERROR]: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f is not enough balance
+4:37:31 PM[LOG]: Block mined:     {
+      Block - Number 1
+      Timestamp: 1651397850574
+      Transactions: [
+          
+      fromAddress: null
+      toAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      amount: 100
+      signature: undefined
+    
+      ]
+      Previous Hash: 2aec22aca5da207347c335d10828c7ee99df59742e650a182ed8e49dc6f05110
+      Hash: 00000a97575796226efaece7d157a178aa3f17478b875d01c7bc57e595088612
+      Nonce: 99083
+    }
+4:37:32 PM[LOG]: Block mined:     {
+      Block - Number 2
+      Timestamp: 1651397851452
+      Transactions: [
+          
+      fromAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      toAddress: address2
+      amount: 50
+      signature: 3046022100b0bce12c13e33f53b40e882bc6bcd8a5d581392727df1a693f35273f64c2bb0d022100981788493143f57e8a7f5aa6d28844ec90a843da45cafadaf20ca6416daad49d
+    ======================================================
+      fromAddress: null
+      toAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      amount: 100
+      signature: undefined
+    
+      ]
+      Previous Hash: 00000a97575796226efaece7d157a178aa3f17478b875d01c7bc57e595088612
+      Hash: 00000625f72b74b066551baf9e6effa896006acc0489838ca783af326e221b36
+      Nonce: 111238
+    }
+4:37:32 PM[LOG]: Chain: 3 blocks
+=============================0=============================
+    {
+      Block - Number 0
+      Timestamp: 1651397850526
+      Transactions: [
+          
+      ]
+      Previous Hash: Genesis Block
+      Hash: 2aec22aca5da207347c335d10828c7ee99df59742e650a182ed8e49dc6f05110
+      Nonce: 0
+    }
+=============================1=============================
+    {
+      Block - Number 1
+      Timestamp: 1651397850574
+      Transactions: [
+          
+      fromAddress: null
+      toAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      amount: 100
+      signature: undefined
+    
+      ]
+      Previous Hash: 2aec22aca5da207347c335d10828c7ee99df59742e650a182ed8e49dc6f05110
+      Hash: 00000a97575796226efaece7d157a178aa3f17478b875d01c7bc57e595088612
+      Nonce: 99083
+    }
+=============================2=============================
+    {
+      Block - Number 2
+      Timestamp: 1651397851452
+      Transactions: [
+          
+      fromAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      toAddress: address2
+      amount: 50
+      signature: 3046022100b0bce12c13e33f53b40e882bc6bcd8a5d581392727df1a693f35273f64c2bb0d022100981788493143f57e8a7f5aa6d28844ec90a843da45cafadaf20ca6416daad49d
+    ======================================================
+      fromAddress: null
+      toAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      amount: 100
+      signature: undefined
+    
+      ]
+      Previous Hash: 00000a97575796226efaece7d157a178aa3f17478b875d01c7bc57e595088612
+      Hash: 00000625f72b74b066551baf9e6effa896006acc0489838ca783af326e221b36
+      Nonce: 111238
+    }
+
+4:40:39 PM[LOG]: 0
+4:40:39 PM[ERROR]: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f is not enough balance
+4:40:39 PM[LOG]: Block mined:     {
+      Block - Number 1
+      Timestamp: 1651398039354
+      Transactions: [
+          
+      fromAddress: null
+      toAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      amount: 100
+      signature: undefined
+    
+      ]
+      Previous Hash: 58a64a2f53bc7896f30f2a6565cafc0e0cc3df0b5a0e4b89ae3d2f80789d39db
+      Hash: 000008be142f4c10aca1897e7210f534ab479480c8ef383ecf350d9a4f2cce5a
+      Nonce: 67998
+    }
+4:41:01 PM[LOG]: Block mined:     {
+      Block - Number 2
+      Timestamp: 1651398039954
+      Transactions: [
+          
+      fromAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      toAddress: address2
+      amount: 50
+      signature: 3046022100b0bce12c13e33f53b40e882bc6bcd8a5d581392727df1a693f35273f64c2bb0d022100981788493143f57e8a7f5aa6d28844ec90a843da45cafadaf20ca6416daad49d
+    ======================================================
+      fromAddress: null
+      toAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      amount: 100
+      signature: undefined
+    
+      ]
+      Previous Hash: 000008be142f4c10aca1897e7210f534ab479480c8ef383ecf350d9a4f2cce5a
+      Hash: 00000ce2ec36154b30ef03cbdd612106fe4d19934e8c4beb35e06060ea9b9c7e
+      Nonce: 2770543
+    }
+4:41:01 PM[LOG]: Chain: 3 blocks
+=============================0=============================
+    {
+      Block - Number 0
+      Timestamp: 1651398039313
+      Transactions: [
+          
+      ]
+      Previous Hash: Genesis Block
+      Hash: 58a64a2f53bc7896f30f2a6565cafc0e0cc3df0b5a0e4b89ae3d2f80789d39db
+      Nonce: 0
+    }
+=============================1=============================
+    {
+      Block - Number 1
+      Timestamp: 1651398039354
+      Transactions: [
+          
+      fromAddress: null
+      toAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      amount: 100
+      signature: undefined
+    
+      ]
+      Previous Hash: 58a64a2f53bc7896f30f2a6565cafc0e0cc3df0b5a0e4b89ae3d2f80789d39db
+      Hash: 000008be142f4c10aca1897e7210f534ab479480c8ef383ecf350d9a4f2cce5a
+      Nonce: 67998
+    }
+=============================2=============================
+    {
+      Block - Number 2
+      Timestamp: 1651398039954
+      Transactions: [
+          
+      fromAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      toAddress: address2
+      amount: 50
+      signature: 3046022100b0bce12c13e33f53b40e882bc6bcd8a5d581392727df1a693f35273f64c2bb0d022100981788493143f57e8a7f5aa6d28844ec90a843da45cafadaf20ca6416daad49d
+    ======================================================
+      fromAddress: null
+      toAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      amount: 100
+      signature: undefined
+    
+      ]
+      Previous Hash: 000008be142f4c10aca1897e7210f534ab479480c8ef383ecf350d9a4f2cce5a
+      Hash: 00000ce2ec36154b30ef03cbdd612106fe4d19934e8c4beb35e06060ea9b9c7e
+      Nonce: 2770543
+    }
+
+4:45:44 PM[LOG]: 0
+4:45:44 PM[ERROR]: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f is not enough balance
+4:45:54 PM[LOG]: Block mined:     {
+      Block - Number 1
+      Timestamp: 1651398344781
+      Transactions: [
+          
+      fromAddress: null
+      toAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      amount: 100
+      signature: undefined
+    
+      ]
+      Previous Hash: 5712525e01acdae1b2d369730c579c6afff6370b37a701b86ea6927b63956f8d
+      Hash: 00000f0562374d9eed49d4910c6f39faf37d439aa5bd78bdb764da9b9c525283
+      Nonce: 1182219
+    }
+4:46:04 PM[LOG]: Block mined:     {
+      Block - Number 2
+      Timestamp: 1651398354226
+      Transactions: [
+          
+      fromAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      toAddress: address2
+      amount: 50
+      signature: 3046022100b0bce12c13e33f53b40e882bc6bcd8a5d581392727df1a693f35273f64c2bb0d022100981788493143f57e8a7f5aa6d28844ec90a843da45cafadaf20ca6416daad49d
+    ======================================================
+      fromAddress: null
+      toAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      amount: 100
+      signature: undefined
+    
+      ]
+      Previous Hash: 00000f0562374d9eed49d4910c6f39faf37d439aa5bd78bdb764da9b9c525283
+      Hash: 000009ea49f6fb5319189a61799312d8622817b948de02ffeeac1e4d4b06a7f8
+      Nonce: 1381035
+    }
+4:46:04 PM[LOG]: Chain: 3 blocks
+=============================0=============================
+    {
+      Block - Number 0
+      Timestamp: 1651398344716
+      Transactions: [
+          
+      ]
+      Previous Hash: Genesis Block
+      Hash: 5712525e01acdae1b2d369730c579c6afff6370b37a701b86ea6927b63956f8d
+      Nonce: 0
+    }
+=============================1=============================
+    {
+      Block - Number 1
+      Timestamp: 1651398344781
+      Transactions: [
+          
+      fromAddress: null
+      toAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      amount: 100
+      signature: undefined
+    
+      ]
+      Previous Hash: 5712525e01acdae1b2d369730c579c6afff6370b37a701b86ea6927b63956f8d
+      Hash: 00000f0562374d9eed49d4910c6f39faf37d439aa5bd78bdb764da9b9c525283
+      Nonce: 1182219
+    }
+=============================2=============================
+    {
+      Block - Number 2
+      Timestamp: 1651398354226
+      Transactions: [
+          
+      fromAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      toAddress: address2
+      amount: 50
+      signature: 3046022100b0bce12c13e33f53b40e882bc6bcd8a5d581392727df1a693f35273f64c2bb0d022100981788493143f57e8a7f5aa6d28844ec90a843da45cafadaf20ca6416daad49d
+    ======================================================
+      fromAddress: null
+      toAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      amount: 100
+      signature: undefined
+    
+      ]
+      Previous Hash: 00000f0562374d9eed49d4910c6f39faf37d439aa5bd78bdb764da9b9c525283
+      Hash: 000009ea49f6fb5319189a61799312d8622817b948de02ffeeac1e4d4b06a7f8
+      Nonce: 1381035
+    }
+
+4:47:01 PM[LOG]: 0
+4:47:01 PM[ERROR]: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f is not enough balance
+4:47:23 PM[LOG]: Block mined:     {
+      Block - Number 1
+      Timestamp: 1651398421680
+      Transactions: [
+          
+      fromAddress: null
+      toAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      amount: 100
+      signature: undefined
+    
+      ]
+      Previous Hash: e5d7e89c2c891166b2dcdd4fc9506fbb221b0c8ca40dc600071268c77b981097
+      Hash: 000008cb6f65a3d9909da83c42d4928db70d6671c9c6dab54226aa59f3cef687
+      Nonce: 2489910
+    }
+4:47:27 PM[LOG]: Block mined:     {
+      Block - Number 2
+      Timestamp: 1651398443246
+      Transactions: [
+          
+      fromAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      toAddress: address2
+      amount: 50
+      signature: 3046022100b0bce12c13e33f53b40e882bc6bcd8a5d581392727df1a693f35273f64c2bb0d022100981788493143f57e8a7f5aa6d28844ec90a843da45cafadaf20ca6416daad49d
+    ======================================================
+      fromAddress: null
+      toAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      amount: 100
+      signature: undefined
+    
+      ]
+      Previous Hash: 000008cb6f65a3d9909da83c42d4928db70d6671c9c6dab54226aa59f3cef687
+      Hash: 00000c6278ca04e9956705e8dc20f539cffd286ebd859c338d04aa6577eff9e3
+      Nonce: 452304
+    }
+4:47:27 PM[LOG]: Chain: 3 blocks
+=============================0=============================
+    {
+      Block - Number 0
+      Timestamp: 1651398421613
+      Transactions: [
+          
+      ]
+      Previous Hash: Genesis Block
+      Hash: e5d7e89c2c891166b2dcdd4fc9506fbb221b0c8ca40dc600071268c77b981097
+      Nonce: 0
+    }
+=============================1=============================
+    {
+      Block - Number 1
+      Timestamp: 1651398421680
+      Transactions: [
+          
+      fromAddress: null
+      toAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      amount: 100
+      signature: undefined
+    
+      ]
+      Previous Hash: e5d7e89c2c891166b2dcdd4fc9506fbb221b0c8ca40dc600071268c77b981097
+      Hash: 000008cb6f65a3d9909da83c42d4928db70d6671c9c6dab54226aa59f3cef687
+      Nonce: 2489910
+    }
+=============================2=============================
+    {
+      Block - Number 2
+      Timestamp: 1651398443246
+      Transactions: [
+          
+      fromAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      toAddress: address2
+      amount: 50
+      signature: 3046022100b0bce12c13e33f53b40e882bc6bcd8a5d581392727df1a693f35273f64c2bb0d022100981788493143f57e8a7f5aa6d28844ec90a843da45cafadaf20ca6416daad49d
+    ======================================================
+      fromAddress: null
+      toAddress: 042eb4afea7b2597bbc780ea94610c05b9c91f23fe6d44420c2559a85ab677571e459f999242739fc2648f9dad5c469c3d920055e5c3c73e21680a3b5b58df814f
+      amount: 100
+      signature: undefined
+    
+      ]
+      Previous Hash: 000008cb6f65a3d9909da83c42d4928db70d6671c9c6dab54226aa59f3cef687
+      Hash: 00000c6278ca04e9956705e8dc20f539cffd286ebd859c338d04aa6577eff9e3
+      Nonce: 452304
+    }
+
+4:53:27 PM[LOG]: 0
+4:53:31 PM[LOG]: 0
+4:53:38 PM[LOG]: 0
+4:53:42 PM[LOG]: 0
+4:58:46 PM[LOG]: 0
+4:59:27 PM[LOG]: 0
+4:59:30 PM[LOG]: 0
+5:00:38 PM[LOG]: 0
+5:00:41 PM[LOG]: 0
+5:04:56 PM[LOG]: 0
+5:04:58 PM[LOG]: 0
+5:06:05 PM[LOG]: 0
+5:06:07 PM[LOG]: 0
+5:07:49 PM[LOG]: 0
+5:07:52 PM[LOG]: 0
+5:08:15 PM[LOG]: 0
+5:08:17 PM[LOG]: 0
+5:09:23 PM[LOG]: 0
+5:13:51 PM[LOG]: 0
+5:42:36 PM[LOG]: 0
+5:42:39 PM[LOG]: 0
+5:42:47 PM[LOG]: 0
+5:42:56 PM[LOG]: 0
+5:45:40 PM[LOG]: 0
+5:45:42 PM[LOG]: 0
+5:45:45 PM[LOG]: 0
+5:45:47 PM[LOG]: 0
