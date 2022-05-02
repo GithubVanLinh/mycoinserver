@@ -146,6 +146,8 @@ class Blockchain {
   }
 
   miningPendingTransactions(miningRewardAddress) {
+    console.log("model/BlockchainCore.js", "Mining...");
+
     const rewardTx = new Transaction(
       null,
       miningRewardAddress,

@@ -1,8 +1,10 @@
 const ws = require("ws");
-const { Blockchain, Transaction } = require("./BlockchainCore");
+const { Blockchain, Transaction, Block } = require("./BlockchainCore");
 const Wallet = require("ethereumjs-wallet").default;
 const EC = require("elliptic").ec;
 const ec = new EC("secp256k1");
+
+const receiveAddress = require("../configs/address");
 
 // P2P network interface
 class P2P {
@@ -126,12 +128,26 @@ class P2P {
         const balance = this.blockchain.getBalanceOfAddress(public_key);
         socket.send(JSON.stringify({ type: "balance", balance }));
         break;
-      case "make-transaction":
+      case "send":
         const { from, to, amount, private_key } = data;
-        const transaction = new Transaction(from, to, amount);
+        const transaction = new Transaction(from, to, +amount);
         transaction.signingTransactionByPrivateKey(private_key);
-        this.blockchain.addTransaction();
+        this.blockchain.addTransaction(transaction);
+        this.blockchain.miningPendingTransactions(receiveAddress.PublicKey);
+        this.broadcastChain();
         break;
+      case "buy":
+        const buyTx = new Transaction(
+          receiveAddress.PublicKey,
+          data.public_key,
+          +data.amount
+        );
+        buyTx.signingTransactionByPrivateKey(receiveAddress.PrivateKey);
+        this.blockchain.addTransaction(buyTx);
+        this.blockchain.miningPendingTransactions(receiveAddress.PublicKey);
+        this.broadcastChain();
+        break;
+
       default:
         break;
     }
@@ -149,6 +165,7 @@ class P2P {
         JSON.stringify({ type: "chain", chain: this.blockchain.chain })
       );
     });
+    console.log("model/p2p.js", "Broadcasted chain");
   }
 
   broadcastTransaction(transaction) {
